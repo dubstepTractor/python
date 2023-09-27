@@ -36,8 +36,6 @@ else:
     red_mage.new_level(2)
     red_mage.get_skills(["Fireball", "Iceball", "Lightning"])
 
-
-# random paladin from one of the teams
 rand = random.randint(0, 1)
 team = teams[rand]
 paladin = blue_team[random.randint(0, blue_count - 1)] if team == "blue" else red_team[random.randint(0, red_count - 1)]
